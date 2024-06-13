@@ -1,0 +1,15 @@
+[package]
+name = "safetynet-backend"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+postgres = "0.19.0"
+serde = { version = "1.0.125", features = ["derive"] }
+log = "0.4.14"
+serde_yaml = "0.9.10"
+serde_json = "1.0.64"
+
+[[bin]]
+name = "safetynet-backend"
+path = "main.rs"

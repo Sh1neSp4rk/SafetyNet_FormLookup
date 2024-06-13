@@ -1,0 +1,8 @@
+backend/Cargo.lock
+backend/target/
+backend/**/*.rs.bk
+backend/safetynet-prod/
+backend/.credentials.yaml
+frontend/Cargo.lock
+frontend/target/
+frontend/**/*.rs.bk
